@@ -19,6 +19,9 @@ pip3 install trezor
 pip3 install "click<8.1"
 ```
 
+click might not be neccessary in the future
+https://github.com/trezor/trezor-firmware/issues/2199
+
 connect your trezor and unlock it
 
 ```
