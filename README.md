@@ -6,6 +6,9 @@ Word of advise - !! never share your xpub with anyone !! unless you want to disc
 
 I left commented sections of the code for initiation with seed (mnemonic) or master private key, but I strongly discourage you to use it.
 
+Please be aware that trezor has a gap limit of 20 addresses - it will not show transactions received on later addresses if there is a successive gap of more than 20 addresses with no transactions.
+https://github.com/trezor/trezor-suite/issues/3504
+
 ## Usage
 
 clone the repo and make sure you install following:
